@@ -1,0 +1,28 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#currencyConverter {
+  text-align: center;
+}
+
+select,
+input,
+button {
+  margin: 10px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
